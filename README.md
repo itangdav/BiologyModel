@@ -12,3 +12,6 @@ I used two pieces of clothing, both with a thickness of 1 cm or 0.01m. The first
 
 Notes on config: 
 Keep in mind all constants are given in standard SI units, so every number imputted must also be in SI units (seconds, kg, meters, etc).
+
+Notes on Scatterplot:
+It requires you to install the plotly add-on for python. If you are using a python compiler like PyCharm, you should get a message prompting the installing of plotly though pip-install. 
