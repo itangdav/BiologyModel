@@ -24,7 +24,7 @@ weight = 70
 numberOfClothing = 2
 # An array for the distance of the outer layer of each piece of clothing from center axis in meters
 # This must be sorted in increasing order and each distance must be greater than the radius of the person
-distanceOfClothing = [0.16, 0.17]
+distanceOfClothing = [0.16, 0.165]
 # An array for thermal conductivity coefficients k given in W m^-1 K^-1 for each layer of clothing
 # This must be in the same order as the previous array and the same size
 k = [0.039, 0.14]
