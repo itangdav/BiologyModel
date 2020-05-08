@@ -57,7 +57,7 @@ def format_layout():
 
 global X_AXIS, Y_AXIS;
 X_AXIS = "Time (s) ";
-Y_AXIS = "Temperature (degrees Celsius) ";
+Y_AXIS = "Body Temperature (degrees Celsius) ";
 
 
 def plot2(X, Y1, Y2):
