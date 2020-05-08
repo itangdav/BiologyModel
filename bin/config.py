@@ -5,15 +5,15 @@
 # The step of time between each data point in seconds
 stepSize = 60
 # The total number of steps taken until end of simulation
-totalStep = 100
+totalStep = 60
 
 
 # Parameters for Human Model
 
 # Body temperature of person in degrees Kelvin (add 273.15 to Celsius temperature)
-bodyTemp = (37) + 273.15
+bodyTemp = (37.1) + 273.15
 # Temperature of outside surroundings in degrees Kelvin
-outerTemp = (29) + 273.15
+outerTemp = (10) + 273.15
 # Height of person in meters
 height = 1.72
 # Radius of person in direction parallel to floor in meters
@@ -32,4 +32,9 @@ k = [0.039, 0.14]
 cOuter = 1500
 # Density of outer layer of clothing in kg m^-3
 density = 860
+# Power produced by human body in Watts
+Qinternal = 100
 
+# Parameters for plot
+# Name of file
+name = "SamplePlot"
